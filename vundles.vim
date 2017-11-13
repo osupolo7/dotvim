@@ -14,21 +14,12 @@ Bundle 'chriskempson/base16-vim'
 
 " General
 if count(g:vundles, 'general')
-  Bundle 'scrooloose/nerdtree'
-  Bundle 'YankRing.vim'
   let g:yankring_history_dir = $HOME.'/.vim/'
   let g:yankring_history_file = '.yankring_history'
   ""Bundle 'tpope/vim-repeat'
   ""Bundle 'AutoClose'
-  Bundle 'kien/ctrlp.vim'
-  Bundle 'jistr/vim-nerdtree-tabs'
-  Bundle 'sudo.vim'
-  Bundle 'bronson/vim-trailing-whitespace'
-  Bundle 'mbbill/undotree'
-  Bundle 'mhinz/vim-signify'
-  Bundle 'Raimondi/delimitMate'
-  Bundle 'bling/vim-airline'
-  Bundle 'rodjek/vim-puppet'
+  ""Bundle 'bling/vim-airline'
+  ""Bundle 'vim-airline/vim-airline-themes'
 endif
 
 if count(g:vundles, 'git')
