@@ -10,7 +10,7 @@
 " Vundle itself
 Bundle 'gmarik/vundle'
 " Required for settings
-Bundle 'chriskempson/base16-vim'
+" Bundle 'chriskempson/base16-vim'
 
 " General
 if count(g:vundles, 'general')
