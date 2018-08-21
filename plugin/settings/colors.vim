@@ -15,8 +15,8 @@ if has("user_commands")
   endif
   if (exists("g:dotvim_colorscheme"))
     execute 'colorscheme '.g:dotvim_colorscheme
-  else
-    colorscheme base16-google-dark
+  "else
+  "   colorscheme base16-google-dark
   endif
   if (match($LC_TERM_PROFILE, "base16") != -1)
     highlight clear SignColumn
